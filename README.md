@@ -1,3 +1,3 @@
 # Bank-Account
 
-## Vector/OOP practice
+## Vector
