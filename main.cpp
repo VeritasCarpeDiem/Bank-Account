@@ -35,6 +35,7 @@ void verifyUser(vector<User>&account)
 {
 	bool isverified = false;
 	string tempUsername,tempPassword;
+	
 	do
 	{
 		cout << "Log In:\n\nEnter username: ";
@@ -86,7 +87,6 @@ void chooseOption(Bank b,User temp,vector<User>&account,int accountIterator)
 	char reply;
 	int option=0;
 	
-
 	do
 	{
 		cout << "Choose between\n1.Deposit $\n2.Withdraw $\n3.Transfer $\n";
@@ -127,6 +127,7 @@ int main()
 	int accountIterator = 0;
 	//auto currentUser = account.at(accountIterator);
 
+	
 	do
 	{
 		registerUser(temp,account);
